@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ValveSDK">
+      <UniqueIdentifier>{5e4bde15-7e1a-4eb2-9e7a-621380409978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ValveSDK\common">
+      <UniqueIdentifier>{675b9072-1c27-4430-844a-984f8e7baab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ValveSDK\engine">
+      <UniqueIdentifier>{a10ea7e8-f7bf-4ab9-8423-259607d3d9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\ValveSDK\misc">
+      <UniqueIdentifier>{38d47b51-bd0b-42b6-a6b7-38f6503b89e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{6007e645-00df-46b3-b115-596e8d219485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Drawing">
+      <UniqueIdentifier>{1505e2a2-1b27-4f42-b6d0-513b5aa3f97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0c5e26c5-1225-4f3a-9a90-3957b705315d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{5b93885d-31e7-4de7-8394-1bab7fdc2c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{92cbea57-be07-4e84-a594-2c50c05847e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{09196883-322d-48b7-a469-a5120e68a87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{73934dc3-a6d3-47b0-918c-5670d738ec43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offsets">
+      <UniqueIdentifier>{801bcea8-94e1-41cc-8829-8f4d5e609315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{43582dc1-2af2-48d5-b074-1bd7cada7e5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ValveSDK\common\interface.cpp">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ValveSDK\misc\parsemsg.cpp">
+      <Filter>Заголовочные файлы\ValveSDK\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMsgs.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>GUI\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Offset.cpp">
+      <Filter>Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ValveSDK\common\beamdef.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\cl_entity.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\com_model.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\con_nprint.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\const.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\crc.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\cvardef.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\demo_api.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\director_cmds.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\dlight.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\dll_state.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\engine_launcher_api.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\entity_state.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\entity_types.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\event_api.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\event_args.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\event_flags.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\exefuncs.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\hltv.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\in_buttons.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\interface.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\itrackeruser.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\ivoicetweak.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\mathlib.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\net_api.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\netadr.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\nowin.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\particledef.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\pmtrace.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\qfont.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\r_efx.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\ref_params.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\screenfade.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\studio_event.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\triangleapi.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\usercmd.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\common\weaponinfo.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\anorms.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\beamdef.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\cdll_dll.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\cdll_engine_dll.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\Cdll_int.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\cl_dll.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\cl_entity.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\const.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\crc.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\custom.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\customentity.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\cvardef.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\dlight.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\edict.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\eiface.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\entity_state.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\entity_types.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\event_args.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\event_flags.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\in_buttons.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\keydefs.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\particledef.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\pm_defs.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\pm_info.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\pmtrace.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\progdefs.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\progs.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\r_efx.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\r_studioint.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\shake.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\studio.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\studio_event.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\triangleapi.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\usercmd.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\util_vector.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\weaponinfo.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\engine\wrect.h">
+      <Filter>Заголовочные файлы\ValveSDK\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\misc\com_model.h">
+      <Filter>Заголовочные файлы\ValveSDK\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveSDK\misc\parsemsg.h">
+      <Filter>Заголовочные файлы\ValveSDK\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMsgs.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="PEB.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameConsole.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>GUI\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameUI.h">
+      <Filter>Заголовочные файлы\ValveSDK\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
